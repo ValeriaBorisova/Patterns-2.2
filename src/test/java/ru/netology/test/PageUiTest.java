@@ -45,6 +45,6 @@ public class PageUiTest {
     void shouldNotSucceedLoginByBlock() {
         inactiveUserRegistration();
         submitButton.click();
-        errorMessage.shouldBe(visible).shouldHave(text("Ошибка! Пользователь заблокирован"));
+        errorMessage.shouldBe(visible).shouldHave(text(" заблокирован"));
     }
 }
